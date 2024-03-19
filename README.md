@@ -37,8 +37,8 @@ As a result there are now two versions of basically the same game or benchmark a
 
 Both applications write performance logs to timestamped .csv files within the `/app_userdata/` folder. See [godot file paths](https://docs.godotengine.org/en/stable/tutorials/io/data_paths.html) for details.
 
-## How To Test
-The whole testing process:
+## How to evaluate
+The whole evaluation process:
 1. Chose scaling settings that suit your need or interest.
 2. Start the process-logger entering the the name of process you wish to start with (DodgeR or DodgeGDS for this purpose).
 3. Start the corresponding Dodge Version.
