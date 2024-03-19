@@ -3,7 +3,7 @@ Overview Repository for a project to evaluate the Rust bindings for the Godot En
 
 This repository contains no source code but:
 - An explanation of the idea and the method of the evaluation project.
-- Links to the four repositories containing the programs/scripts created for the purpose of evaluation.
+- Links to the four repositories containing the programs/scripts created for this purpose.
 - [Raw data](data/) collected during the first test series.
 - [Plots](plots.md) and [statistics](results.md) created on the basis of the raw data.
 
