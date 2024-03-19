@@ -4,8 +4,8 @@ Overview Repository for a project to evaluate the Rust bindings for the Godot En
 This repository contains no source code but:
 - An explanation of the idea and the method of the evaluation project.
 - Links to the four repositories containing the programs/scripts created for the purpose of evaluation.
-- Raw data collected during the first test series.
-- Plots and statistics created on the basis of the raw data.
+- [Raw data](data/) collected during the first test series.
+- [Plots](plots.md) and [statistics](results.md) created on the basis of the raw data.
 
 The evaluation project consists of five Repositories:
 
@@ -14,6 +14,7 @@ The evaluation project consists of five Repositories:
 - [Godot GDScript benchmark game](https://github.com/franziskusz/dodge-gds)
 - [process-logger](https://github.com/franziskusz/process-logger)
 - [pandas-plotter](https://github.com/franziskusz/pandas-plotter)
+
 
 ## Idea
 Combining the open source game engine [Godot](https://godotengine.org) with the performant language [Rust](https://www.rust-lang.org) seems like a good fit.
