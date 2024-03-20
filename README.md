@@ -38,13 +38,19 @@ As a result there are now two versions of basically the same game or benchmark a
 Both applications write performance logs to timestamped .csv files within the `/app_userdata/` folder. See [godot file paths](https://docs.godotengine.org/en/stable/tutorials/io/data_paths.html) for details.
 
 ## How to evaluate
+### The easy way
+1. Set up and export one or both benchmark game applications
+2. Experiment with the settings and just watch the in-game time, mob and fps counters.
+
+### The difficult way
 The whole evaluation process:
-1. Chose scaling settings that suit your need or interest.
-2. Start the process-logger entering the the name of process you wish to start with (DodgeR or DodgeGDS for this purpose).
-3. Start the corresponding Dodge Version.
-4. Run it with the chosen settings for the desired time or until it shuts down because of the fps limit.
-5. Stop the process logger.
-6. Repeat 2-5 as many times as you want to get average values.
-7. Repeat 2-6 for the other Dodge Version.
-8. Collect the .csv results in four separate folders (eg. /dodge-r-godot/, /dodge-r-process/, /dodge-gds-godot/, /dodge-gds-process/).
-9. Invoke the python pandas script with the four folders as arguments to calculate the arithmetic mean and plot it as well as the difference.
+1. Set up and export both benchmark game applications.
+2. Chose scaling settings that suit your need or interest.
+3. Start the process-logger entering the the name of process you wish to start with (DodgeR or DodgeGDS for this purpose).
+4. Start the corresponding Dodge Version.
+5. Run it with the chosen settings for the desired time or until it shuts down because of the fps limit.
+6. Stop the process logger.
+7. Repeat 3-6 as many times as you want to get average values.
+8. Repeat 3-7 for the other Dodge Version.
+9. Collect the .csv results in four separate folders (eg. /dodge-r-godot/, /dodge-r-process/, /dodge-gds-godot/, /dodge-gds-process/).
+10. Invoke the python pandas script with the four folders as arguments to calculate the arithmetic mean and plot it as well as the difference.
